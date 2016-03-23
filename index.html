@@ -1,45 +1,99 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-	  
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
-	<script src="js/jquery-1.12.2.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<style>
-	  .container {
-	    background-color:lightgray;
-	    margin-top:30px;
-	    padding-bottom:30px;
-	   }
-	</style>
-	<title>Bootstrap Practice</title>
-	
+<html>
 
-	</head>
-	
+<head>
 
-	<body>
-	<h1>Hello</h1>
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+  <script src="js/jquery-1.12.2.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <style>
+    .container {
+      background-color: lightgray;
+      margin-top: 30px;
+      padding-bottom: 30px;
+    }
+  </style>
+  <title>Bootstrap Practice</title>
 
-	<div class="container">
-	  <h1>Bootstrap Practice</h1>
-	  <p>Time for another mini project. Have a cup of coffee and let's continue...</p>
-	  <img src="images/coffee.gif" class="img-rounded img-responsive"/>
-	 
-	  <p><div class="dropdown">
-	    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-	      Bootstrap Dependencies 
-	      <span class="caret"></span>
-	    </button>
-	    <ul class="dropdown-menu">
-	      <li><a href="#">Bootstrap CSS file</a></li>
-	      <li><a href="#">Bootstrap JS file</a></li>
-	      <li><a href="#">Needs JQuery!</a></li>
-	    </ul>
-	  </div></p>
-	</div>
-	   
-	</body>
-	
+</head>
 
-	</html>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">LeetCode</a></li>
+        <li><a href="#"><font color="orange">LeetCode Premium Subscription</font></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Problems
+        <span class="caret"></span></a>
+          <li><a href="#">Pick One</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mock
+        <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Mock Interview</a></li>
+              <li><a href="#">Past Sessions</a></li>
+            </ul>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Discuss</a></li>
+            <li><a href="#"><font color="orange">Book</font></a></li>
+      </ul>
+      <ul class="nav navbar-form navbar-right">
+        <button type="button" class="btn btn-primary"> Sign up </a>
+        </button>
+        <button type="button" class="btn btn-default">Sign in</a>
+        </button>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>LeetCode Online Judge</h1>
+    <p>We are supporting <font color="red">JavaScript</font> and <font color="red">Ruby</font> now!</p>
+    <p>LeetCode OJ is platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly. It is that easy!</p>
+    <p>Our platform currently supports total of 9 languages: C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL.</p>
+    <p> <a href="url">Follow</a> or <a href="url">Like LeetCode</a> and get the <font color="red">latest update</font> when a new question is added!</p>
+    <ul>
+      <li><img src="facebook-like.png" style="width:20px;height:20px;"><a href="url">Facebook</a></li>
+      <li><img src="twitter.png" style="width:20px;height:20px;"><a href="url">Twitter</a></li>
+      <li><img src="png.png" style="width:20px;height:20px;"><a href="url">Weibo</a></li>
+    </ul>
+    
+    <div class="CRD">
+      <ul class="list-inline">
+        <li><a href="url">Code.  </a></li>
+        <li><a href="url">Read.  </a></li>
+        <li><a href="url">Discuss.  </a></li>
+        <li></li>
+      </ul>
+    </div>
+    
+    <ul class="list-inline">
+      <li>
+          <input type="text" class="form-control" id="usr" placeholder="Username">
+      </li>
+
+      <li>
+          <input type="text" class="form-control" id="usr" placeholder="E-mail address">
+      </li>
+
+      <li>
+          <input type="password" class="form-control" id="pwd" placeholder="password">
+      </li>
+
+      <li>
+        <button type="button" class="btn btn-primary"> Sign up for LeetCode OJ</button>
+      </li>
+    </ul>
+    <div class="bottom_pic" align="right">
+      <hr>
+      <p>or sign up with:</p>
+      <ul class="list-inline">
+        <li><img src="social-facebook-box-blue-icon.png" style="width:60px;height:60px;"></li>
+        <li><img src="google.png" style="width:70px;height:60px;"></li>
+        <li><img src="linkedin.png" style="width:60px;height:60px;"></li>
+        <li><img src="github.png" style="width:60px;height:60px;"></li>
+      </ul>
+    </div>
+
+  </div>
